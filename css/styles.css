@@ -47,7 +47,7 @@ body {
   font-weight: 400;
   font-style: normal;
   font-variation-settings: "wdth" 100;
-  background-color: var(--color-background);
+  background-color: #ffffff;
   color: var(--color-foreground);
 }
 
@@ -162,8 +162,6 @@ ul a:active {
 .cta {
   background: var(--color-primary-brand);
   color: var(--color-white-background);
-  height: 56px;
-  width: 169px;
 }
 
 .cta:hover {
