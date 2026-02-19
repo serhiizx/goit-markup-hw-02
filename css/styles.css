@@ -38,7 +38,10 @@
 }
 
 /* #region Root */
-html {
+body {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -46,12 +49,6 @@ html {
   font-variation-settings: "wdth" 100;
   background-color: var(--color-background);
   color: var(--color-foreground);
-}
-
-body {
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
 }
 
 /* #endregion */
@@ -97,6 +94,7 @@ button {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 a {
@@ -128,7 +126,6 @@ ul a:active {
 
 /* ~~ UTILS ~~*/
 .text-md {
-  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
@@ -182,7 +179,6 @@ ul a:active {
 }
 
 .services p {
-  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
@@ -212,7 +208,6 @@ ul a:active {
 }
 
 .our-team p {
-  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
@@ -224,7 +219,6 @@ footer {
 }
 
 footer p {
-  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
