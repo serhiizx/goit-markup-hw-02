@@ -1,0 +1,231 @@
+:root {
+  --font-sans: "", sans-serif;
+
+  /* ~~~ COLORS ~~ */
+  /* figma colors */
+  --color-primary-brand: #4d5ae5;
+  --color-pressed: #404bbf;
+  --color-dark: #2e2f42;
+  --color-success: #31d0aa;
+  --color-text: #434455;
+  --color-subtle-text: #8e8f99;
+  --color-accent: #e7e9fc;
+  --color-light: #f4f4fd;
+  --color-modal-overlay: #2e2f42;
+  --color-hero-background: #2e2f42;
+  --color-white-background: #ffffff;
+  --color-modal-background: #fcfcfc;
+
+  /* internal colors */
+  --color-background: var(--color-white-background);
+  --color-foreground: var(--color-text);
+}
+
+/** FONTS */
+.roboto-sans {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.raleway-sans {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* #region Root */
+html {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+}
+
+body {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+/* #endregion */
+/* #region Typography */
+
+h1 {
+  font-weight: bold;
+  font-size: 56px;
+  letter-spacing: 0.02em;
+  line-height: 60px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+}
+
+.text-sm {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+}
+
+.text-md {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+/* #endregion */
+/* #region Base */
+button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+}
+
+a {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul a {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--color-dark);
+}
+
+ul a:hover,
+ul a:active {
+  color: var(--color-pressed);
+}
+
+/* #endregion Base */
+
+/* ~~ UTILS ~~*/
+.text-md {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--color-dark);
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  line-height: 21px;
+}
+
+.logo span {
+  color: var(--color-primary-brand);
+}
+
+.logo--light {
+  color: var(--color-light);
+}
+
+.hero {
+  background-color: var(--color-dark);
+  color: var(--color-white-background);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+}
+
+.cta {
+  background: var(--color-primary-brand);
+  color: var(--color-white-background);
+  height: 56px;
+  width: 169px;
+}
+
+.cta:hover {
+  background: var(--color-pressed);
+}
+
+.services h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--color-dark);
+}
+
+.services p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+.our-team {
+  background-color: var(--color-light);
+}
+
+.our-team h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  color: var(--color-dark);
+}
+
+.our-team li {
+  background-color: var(--color-white-background);
+}
+
+.our-team h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+.our-team p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+footer {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
