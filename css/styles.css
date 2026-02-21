@@ -94,16 +94,6 @@ h3 {
 
 /* #endregion */
 /* #region Base */
-button {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-}
-button:hover {
-  background-color: #404bbf;
-}
 
 a {
   font-weight: normal;
@@ -147,11 +137,14 @@ address {
   font-style: normal;
 }
 
-a.email {
+.address-link {
   color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-a.email:hover,
-a.email:focus {
+.address-link:hover,
+.address-link:focus {
   color: #404bbf;
 }
 
@@ -185,18 +178,23 @@ a.email:focus {
 }
 
 .cta {
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .cta:hover {
-  background: #404bbf;
+  background-color: #404BBF;
 }
 
 .service-name {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -213,8 +211,8 @@ a.email:focus {
 
 .our-team-title {
   font-weight: 700;
-  font-size: 56px;
-  line-height: 1.17;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
@@ -237,9 +235,11 @@ a.email:focus {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .our-portfolio-h2 {
+
 }
 .our-portfolio-h3 {
 }
