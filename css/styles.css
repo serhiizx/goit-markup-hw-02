@@ -62,7 +62,6 @@ h1 {
   text-align: center;
 }
 
-
 .text-sm {
   font-weight: 400;
   font-size: 12px;
@@ -236,14 +235,14 @@ address {
 
 .our-portfolio-h2 {
 }
-.our-portfolio-h3 {
+.our-portfolio-title {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.02em;
   line-height: 1.2;
 }
-.our-portfolio-p {
+.our-portfolio-group {
 }
 
 footer,
