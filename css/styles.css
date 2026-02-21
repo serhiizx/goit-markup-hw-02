@@ -102,7 +102,7 @@ button {
   cursor: pointer;
 }
 button:hover {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 
 a {
@@ -239,11 +239,15 @@ a.email:focus {
   letter-spacing: 0.02em;
 }
 
-.our-portfolio-h2 {}
-.our-portfolio-h3 {}
-.our-portfolio-p {}
+.our-portfolio-h2 {
+}
+.our-portfolio-h3 {
+}
+.our-portfolio-p {
+}
 
-footer, .footer {
+footer,
+.footer {
   background-color: #2e2f42;
   color: #f4f4fd;
 }
