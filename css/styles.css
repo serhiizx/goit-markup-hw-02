@@ -62,11 +62,6 @@ h1 {
   text-align: center;
 }
 
-h3 {
-  font-weight: 500;
-  font-size: 20px;
-  letter-spacing: 0.02em;
-}
 
 .text-sm {
   font-weight: 400;
@@ -243,6 +238,10 @@ address {
 }
 .our-portfolio-h3 {
   color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
 }
 .our-portfolio-p {
 }
