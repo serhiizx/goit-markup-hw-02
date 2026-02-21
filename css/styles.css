@@ -187,8 +187,9 @@ address {
   cursor: pointer;
 }
 
-.cta:hover, .cta:focus {
-  background-color: #404BBF;
+.cta:hover,
+.cta:focus {
+  background-color: #404bbf;
 }
 
 .service-name {
@@ -239,7 +240,6 @@ address {
 }
 
 .our-portfolio-h2 {
-
 }
 .our-portfolio-h3 {
 }
